@@ -11,7 +11,7 @@ count(student_id) as total_no_of_student
 from students
 group by department;
 
--- Calculate the average GPA per department.
+-- 2.Calculate the average GPA per department.
 select 
 department,
 round(avg(gpa),2) average_gpa
